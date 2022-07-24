@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<html>
+    <h1 class="my_head" id="head_1">This is my MAMA</h1>\
+    <p id="tar"></p>
+    <a target = "_blank" href="https://www.google.com">click me</a>
+    
+    <!--jq interaction starts-->
+    <h2 class="test_head" id="new_head">welcome to chootiypa</h2>
+    <button class ="btn">click here</button>
+    <p>the world is very beautiful!</p>
+    <p>ata lana hai, chowmin khana hai!</p>
+    <!--jq interaction end-->
+
+    <!--form-->
+        <form>
+            <div>
+                <label>Enter Your Email:</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label>Enter your Password:</label>
+                <input type="password" name="pass">
+            </div>
+            <div>
+                <button type="submit">SignIn</button>
+            </div>
+        </form>
+    <!--form end-->
+    
+    <!--Normal javascript-->
+    <script>
+        let elem = document.getElementById("head_1").innerHTML;
+        let elem2 = document.getElementById("head_1");
+            console.log(elem);
+            elem2.style.color = "green";
+    
+            document.getElementById("tar").innerHTML = elem;
+        </script>
+    <!--Normal Javascript ends-->
+    
+</body>
+</html>
